@@ -1,0 +1,34 @@
+.link-short {
+  width: 100%;
+  max-width: 1200px;
+  background-image: url(../../src/images/bg-shorten-desktop.svg);
+  background-color: $mainViolet;
+  padding: 2rem 3rem;
+  border-radius: 8px;
+  margin-bottom: 4rem;
+
+  .shortener {
+    display: flex;
+    align-items: center;
+
+    input {
+      border-radius: 8px;
+      font-size: 0.89rem;
+      padding: 0.75rem;
+      padding-left: 1.3rem;
+      flex-grow: 4;
+    }
+
+    button {
+      background-color: $mainCyan;
+      font-size: 0.89rem;
+      font-weight: 700;
+      font-family: inherit;
+      border: none;
+      border-radius: 8px;
+      color: white;
+      padding: 0.75rem 1.5rem;
+      margin-left: 1rem;
+    }
+  }
+}

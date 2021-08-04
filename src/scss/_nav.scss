@@ -1,0 +1,69 @@
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 2.3rem 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+
+  .links {
+    a {
+      font-size: 0.8rem;
+      color: $fontLight;
+      margin-left: 1rem;
+      font-weight: 700;
+      
+      &:first-child {
+        margin-left: 2rem;
+      }
+    }
+  }
+
+  .nav__cta {
+    display: flex;
+    align-items: center;
+
+    a {
+      font-size: 0.8rem;
+      color: $fontLight;
+      font-weight: 700;
+    }
+  
+    .signup-btn {
+      background-color: $mainCyan;
+      color: white;
+      padding: 0.7rem 1.4rem;
+      border-radius: 1.5rem;
+      margin-left: 1.6rem;
+    }
+
+    .hamburger-btn {
+      display: none;
+
+      div {
+        width: 1.5rem;
+        height: 4px;
+        background-color: $fontLight;
+        margin-bottom: 4px;
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+  
+  .nav-wrap {
+    display: flex;
+    align-items: center;
+  
+    .logo {
+      img {
+        position: relative;
+        top: 3px;
+      }
+    }
+  }
+  
+}

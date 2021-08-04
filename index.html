@@ -4,56 +4,89 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="src/images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="dist/css/main.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap" rel="stylesheet">
   
   <title>Frontend Mentor | Shortly URL shortening API Challenge</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
+
 <body>
 
-  Features
-  Pricing
-  Resources
+  <nav>
+    <div class="nav-wrap">
+      <div class="logo">
+        <img src="src/images/logo.svg" alt="">
+      </div>
+      <div class="links">
+        <a href="">Features</a>
+        <a href="">Pricing</a>
+        <a href="">Resources</a>
+      </div>
+    </div>
+    <div class="nav__cta">
+      <a href="" class="login">Login</a>
+      <a href="" class="signup-btn">Sign Up</a>
+      <div id="hamburgerBtn" class="hamburger-btn">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+  </nav>
+  <main>
+    <header>
+      <div class="header-img">
+        <img src="src/images/illustration-working.svg" alt="">
+      </div>
+      <div class="header-content">
+        <h1>More than just shorter links</h1>
+        <p>Build your brand’s recognition and get detailed insights 
+          on how your links are performing.</p>
+        <a href="" class="header-btn">Get Started</a>
+      </div>
+    </header>
 
-  Login
-  Sign Up
+    <div class="link-short">
+      <form action="" class="shortener">
+        <input type="url" name="link" id="link" placeholder="Shorten a link here...">
+        <button type="submit">Shorten it!</button>
+      </form> 
+    </div>
 
-  More than just shorter links
+    <div class="stats">
+      <div class="stats-title">
+        <h2>Advanced Statistics</h2>
+        <p>Track how your links are performing across the web with our advanced statistics dashboard.</p>
+      </div>
 
-  Build your brand’s recognition and get detailed insights 
-  on how your links are performing.
+      <div class="stats-content">
+        <div class="card">
+          <figure><img src="" alt=""></figure>
+          <h3>Brand Recognition</h3>
+          <p>Boost your brand recognition with each click. Generic links don’t mean a thing. Branded links help instil confidence in your content.</p>
+        </div>
+        <div class="card">
+          <figure><img src="" alt=""></figure>
+          <h3>Detailed Records</h3>
+          <p>Gain insights into who is clicking your links. Knowing when and where people engage with your content helps inform better decisions.</p>
+        </div>
+        <div class="card">
+          <figure><img src="" alt=""></figure>
+          <h3>Fully Customizable</h3>
+          <p>Improve brand awareness and content discoverability through customizable links, supercharging audience engagement.</p>
+        </div>
+      </div>
+      
+    </div>
 
-  Get Started
-  
-  Shorten a link here...
+  </main>
 
-  Shorten It!
-
-  Advanced Statistics
-
-  Track how your links are performing across the web with our 
-  advanced statistics dashboard.
-
-  Brand Recognition
-
-  Boost your brand recognition with each click. Generic links don’t 
-  mean a thing. Branded links help instil confidence in your content.
-
-  Detailed Records
-
-  Gain insights into who is clicking your links. Knowing when and where 
-  people engage with your content helps inform better decisions.
-
-  Fully Customizable
-
-  Improve brand awareness and content discoverability through customizable 
-  links, supercharging audience engagement.
-
+  <!-- 
   Boost your links today
 
   Get Started
@@ -75,11 +108,6 @@
   About
   Our Team
   Careers
-  Contact
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+  Contact -->
 </body>
 </html>
